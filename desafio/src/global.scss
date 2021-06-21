@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600&display=swap');
+
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+:root {
+    /*para barra superior e background*/
+    --gray-100:#E6E8EB;
+    --gray-200:#AFB2B1;
+    --gray-800: #494D4B;
+
+    /*para botões e barra lateral*/
+    --bars:#05445E;
+    --bars-red:rgb(255, 0, 68);
+    --background-button:#4C5270;
+    --font-button:#E6E8EB;
+
+    /*botões ativo*/
+    --active-button:#18A558;
+    --inactive-button:#E56997;
+}
+
+body,input,textarea,button{
+    font: 400;
+    color: var(--gray-800);
+}

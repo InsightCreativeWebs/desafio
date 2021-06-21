@@ -1,0 +1,58 @@
+.headerContainer{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #fff;
+    border-bottom:  2px solid #555;
+}
+
+.headerPesquisa{
+    border: 2.5px solid var(--gray-200);
+    position:relative;
+    margin-left: 30%;
+    border-radius: 15px;
+    color: var(--gray-800);
+    
+    padding:15px;
+
+    input{
+        border: none;
+        background: none;
+        outline: none;
+        margin: none;
+        padding:0 10px;
+        font-size: x-large;
+    }
+}
+
+.headerBtn{
+    display: flex;
+    float: left;
+    img{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.headerAvatar{
+    margin-left: auto;
+
+    img{
+        width: 10rem;
+        clip-path: circle();
+    }
+}
+
+.headerUsuario{
+    margin-right: 20px;
+    line-height: 2.5px;
+
+    h2{
+        color: black;    
+    }
+    h3{
+        color: var(--gray-200);
+    }
+}

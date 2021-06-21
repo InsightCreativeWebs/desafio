@@ -1,0 +1,86 @@
+.formContainer{
+    // border: 1px solid red;
+    
+    /*botões*/
+    .btnGroup{
+        // border: 1px solid red;
+        display: flex;
+        
+        padding: 15px;
+    }
+
+    button{
+        margin-left: 10px;
+        color: var(--bars-red);
+        border: none;
+        font-size: xx-large;
+        text-decoration: none;   
+    }
+
+    .btnUsuario button{
+        background-color:var(--gray-100) ;
+        text-align: center;
+        width: 300px;
+        height: 50px;
+        transition: ease-out 0.2s;
+    }
+
+    .btnUsuario button:hover{
+        border-radius: 3px;
+        border-bottom: 5px solid rgba(82, 80, 80, 0.5);
+    }
+
+    .btnAdm button{
+        background-color:var(--gray-100) ;
+        text-align: center;
+        width: 300px;
+        height: 50px;
+        transition: ease-out 0.2s;
+    }
+
+    .btnAdm button:hover{
+        border-radius: 3px;
+        border-bottom: 5px solid rgba(82, 80, 80, 0.5);
+    }
+
+    .btnCad{
+        // border: 1px solid black;
+        margin-left: auto;
+        background-color: var(--gray-100);
+    }
+
+    .btnCad button{
+        color: white;
+        background-color: var(--bars-red);
+        width: 200px;
+        padding: 10px;
+        transition: ease-out 0.2s;
+    }
+
+    .btnCad button:hover{
+        background-color: var(--gray-100);
+        color: var(--gray-800);
+    }
+
+    /*apresentação dos dados*/
+    .tableGroup{
+        margin-top: 10px;
+        // border: 1px solid blue;
+        padding: 15px;
+
+        .table{
+            border: 2px solid var(--gray-200);
+            border-collapse: collapse;
+            text-align: left;
+            width: 100%;
+        }
+        .table th,td{
+            padding: 15px;
+            padding-left: 40px;
+        }
+        .table th{
+            background-color: var(--background-button);
+            color: white;
+        }
+    }
+}
